@@ -87,6 +87,11 @@ p {
   font-weight: 600;
   color: rgb(43, 93, 240);
 }
+@media screen and (max-width: 450px) {
+  .picture, .resume {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 451px) {
   .picture, .resume {
     width: 50%;
